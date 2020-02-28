@@ -14,7 +14,9 @@ JCP | [Java Community Process](https://jcp.org/en/home/index) | "Open, participa
 JDK | [Java Development Kit](https://en.wikipedia.org/wiki/Java_Development_Kit) | Implementation of the Java platform.
 JEP | [JDK Enhancement Proposal](https://openjdk.java.net/jeps/0) | "Process for collecting, reviewing, sorting, and recording the results of proposals for enhancements to the JDK."([source](http://openjdk.java.net/jeps/1))
 JIT | [Just-In-Time](https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html) | Java compiler approach
+JLS | [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se13/html/index.html) | Specification for the Java programming language.
 JMM | [Java Memory Model](https://en.wikipedia.org/wiki/Java_memory_model) | "Defines how threads interact through memory.([source](http://www.cs.umd.edu/~pugh/java/memoryModel/))
+JNA | [Java Native Access](https://github.com/java-native-access/jna) | Library/project similar to Java Native Interface (JNI), but intended to be easier to use.
 JNDI | [Java Naming and Directory Interface](https://docs.oracle.com/javase/tutorial/jndi/overview/index.html) | Naming and directory support for Java applications.
 JNI | [Java Native Interface](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/index.html) | "Standard programming interface for writing Java native methods and embedding the Java virtual machine into native applications."
 JPA | [Java Persistence API](https://javaee.github.io/tutorial/persistence-intro001.html) | API for mapping Java objects to relational data
@@ -24,6 +26,7 @@ JSP | [JavaServer Pages](https://www.oracle.com/technetwork/java/index-jsp-13823
 JSR | [Java Specification Request](https://jcp.org/en/jsr/all) | "Document submitted to the PMO by one or more members to propose the development of a new specification or significant revision to an existing specification."([source](https://jcp.org/en/introduction/faq#jsr))
 JTA | [Java Transaction API](https://www.oracle.com/technetwork/java/javaee/jta/index.html) | API for working with transactions and a distributed transaction manager.
 JVM | [Java Virtual Machine](https://en.wikipedia.org/wiki/Java_virtual_machine) | Environment in which Java (and other languages supporting compilation to Java `.class` files) applications can be executed.
+JVMS | [Java Virtual Machine Specification](https://docs.oracle.com/javase/specs/jvms/se13/html/index.html) | Specification for the Java Virtual Machine (JVM)
 J2EE | [Java 2 Enterprise Edition](https://www.oracle.com/java/technologies/java-ee-glance.html) | Former name for Java EE
 J2ME | [Java 2 Micro Edition](https://www.oracle.com/java/technologies/javameoverview.html) | Java for mobile devices and embedded applications.
 J2SE | [Java 2 Standard Edition](https://www.oracle.com/technetwork/java/javase/overview/index.html) | Standard Java (as opposed to J2EE or Java EE)
