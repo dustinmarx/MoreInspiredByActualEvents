@@ -2,6 +2,7 @@ This page contains a collection of acronyms and abbreviations often seen when wo
 
 ACRONYM | NAME | ADDITIONAL NOTES
 ------- | ---- | ----------------
+AOT | [Ahead-Of-Time](https://devblogs.microsoft.com/java/aot-compilation-in-hotspot-introduction/) | Java compiler approach.
 EC | [Executive Committee](https://jcp.org/en/introduction/faq#ec) | "Group of Members guiding the evolution of Java technology in the Java Community Process (JCP)" ([source](https://jcp.org/en/participation/committee))
 EG | [Expert Group](https://jcp.org/en/introduction/faq#egnom) | "The group of JCP Members who collaborate on developing a Java Specification through a JSR."([source](https://jcp.org/en/introduction/faq#eg))
 EJB | [Enterprise JavaBean](https://www.javaworld.com/article/3432125/what-is-ejb-the-evolution-of-enterprise-javabeans.html) | Part of Java EE
@@ -12,6 +13,7 @@ JDBC | [JDBC](https://www.oracle.com/technetwork/java/javase/jdbc/index.html) | 
 JCP | [Java Community Process](https://jcp.org/en/home/index) | "Open, participative process to develop and revise the Java™ technology specifications, reference implementations, and test suites"([source](https://jcp.org/en/introduction/faq#jcp))
 JDK | [Java Development Kit](https://en.wikipedia.org/wiki/Java_Development_Kit) | Implementation of the Java platform.
 JEP | [JDK Enhancement Proposal](https://openjdk.java.net/jeps/0) | "Process for collecting, reviewing, sorting, and recording the results of proposals for enhancements to the JDK."([source](http://openjdk.java.net/jeps/1))
+JIT | [Just-In-Time](https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html) | Java compiler approach
 JMM | [Java Memory Model](https://en.wikipedia.org/wiki/Java_memory_model) | "Defines how threads interact through memory.([source](http://www.cs.umd.edu/~pugh/java/memoryModel/))
 JNDI | [Java Naming and Directory Interface](https://docs.oracle.com/javase/tutorial/jndi/overview/index.html) | Naming and directory support for Java applications.
 JNI | [Java Native Interface](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/index.html) | "Standard programming interface for writing Java native methods and embedding the Java virtual machine into native applications."
