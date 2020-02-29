@@ -28,6 +28,7 @@ JSF | [JavaServer Faces](http://www.javaserverfaces.org/) | Java component-based
 JSP | [JavaServer Pages](https://www.oracle.com/technetwork/java/index-jsp-138231.html) | Java-based approach to generating web pages
 JSR | [Java Specification Request](https://jcp.org/en/jsr/all) | "Document submitted to the PMO by one or more members to propose the development of a new specification or significant revision to an existing specification."([source](https://jcp.org/en/introduction/faq#jsr))
 JTA | [Java Transaction API](https://www.oracle.com/technetwork/java/javaee/jta/index.html) | API for working with transactions and a distributed transaction manager.
+JUL | [Java Util Logging](https://docs.oracle.com/javase/10/core/java-logging-overview.htm#JSCOR-GUID-B83B652C-17EA-48D9-93D2-563AE1FF8EDA) | AKA J.U.L., this references the logging framework built into the JDK, which approvides APIs via the [java.util.logging package](https://docs.oracle.com/en/java/javase/13/docs/api/java.logging/java/util/logging/package-summary.html).
 JVM | [Java Virtual Machine](https://en.wikipedia.org/wiki/Java_virtual_machine) | Environment in which Java (and other languages supporting compilation to Java `.class` files) applications can be executed.
 JVMS | [Java Virtual Machine Specification](https://docs.oracle.com/javase/specs/jvms/se13/html/index.html) | Specification for the Java Virtual Machine (JVM)
 J2EE | [Java 2 Enterprise Edition](https://www.oracle.com/java/technologies/java-ee-glance.html) | Former name for Java EE
