@@ -3,6 +3,7 @@ This page contains a collection of acronyms and abbreviations often seen when wo
 ACRONYM | NAME | ADDITIONAL NOTES
 ------- | ---- | ----------------
 AOT | [Ahead-Of-Time](https://devblogs.microsoft.com/java/aot-compilation-in-hotspot-introduction/) | Java compiler approach.
+AWT | [Abstract Window Toolkit](https://www.javatpoint.com/java-awt) | Base Java graphical components and toolkit ([versus Swing](https://www.educba.com/awt-vs-swing/))
 BSM | [Bootstrap Method](https://www.infoq.com/articles/Invokedynamic-Javas-secret-weapon/) | Method associated with `invokedynamic` instruction.
 EC | [Executive Committee](https://jcp.org/en/introduction/faq#ec) | "Group of Members guiding the evolution of Java technology in the Java Community Process (JCP)" ([source](https://jcp.org/en/participation/committee))
 EG | [Expert Group](https://jcp.org/en/introduction/faq#egnom) | "The group of JCP Members who collaborate on developing a Java Specification through a JSR."([source](https://jcp.org/en/introduction/faq#eg))
@@ -15,9 +16,11 @@ JDBC | [JDBC](https://www.oracle.com/technetwork/java/javase/jdbc/index.html) | 
 JCP | [Java Community Process](https://jcp.org/en/home/index) | "Open, participative process to develop and revise the Java™ technology specifications, reference implementations, and test suites"([source](https://jcp.org/en/introduction/faq#jcp))
 JDK | [Java Development Kit](https://en.wikipedia.org/wiki/Java_Development_Kit) | Implementation of the Java platform.
 JEP | [JDK Enhancement Proposal](https://openjdk.java.net/jeps/0) | "Process for collecting, reviewing, sorting, and recording the results of proposals for enhancements to the JDK."([source](http://openjdk.java.net/jeps/1))
+JFC | [Java Foundation Classes](https://docs.oracle.com/javase/tutorial/uiswing/start/about.html) | "comprehensive set of GUI components and services which dramatically simplify the development and deployment of commercial-quality desktop and Internet/Intranet applications." ([source](https://www.oracle.com/technetwork/java/faqs-140150.html#what_is))
 JIT | [Just-In-Time](https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html) | Java compiler approach
 JLS | [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se13/html/index.html) | Specification for the Java programming language.
 JMM | [Java Memory Model](https://en.wikipedia.org/wiki/Java_memory_model) | "Defines how threads interact through memory.([source](http://www.cs.umd.edu/~pugh/java/memoryModel/))
+JMS | [Java Message Service](https://www.oracle.com/technical-resources/articles/java/intro-java-message-service.html) | "Java API that allows applications to create, send, receive, and read messages using reliable, asynchronous, loosely coupled communication." ([source](https://docs.oracle.com/javaee/6/tutorial/doc/bncdq.html))
 JMX | [Java Management Extensions](https://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) | Management and monitoring of Java-based applications.
 JMXMP | [JMX Messaging Protocol](https://www.gridshore.nl/2010/06/20/exposing-jmx-through-jmxmp-and-reading-the-jmx-data-with-groovy/) | [Alternative to RMI for JMX connector](http://marxsoftware.blogspot.com/2008/08/remote-jmx-connectors-and-adapters.html) ([obsolete](https://www.acunetix.com/blog/web-security-zone/old-java-libraries/))
 JNA | [Java Native Access](https://github.com/java-native-access/jna) | Library/project similar to Java Native Interface (JNI), but intended to be easier to use.
