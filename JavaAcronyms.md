@@ -16,6 +16,8 @@ JEP | [JDK Enhancement Proposal](https://openjdk.java.net/jeps/0) | "Process for
 JIT | [Just-In-Time](https://www.oreilly.com/library/view/java-performance-the/9781449363512/ch04.html) | Java compiler approach
 JLS | [Java Language Specification](https://docs.oracle.com/javase/specs/jls/se13/html/index.html) | Specification for the Java programming language.
 JMM | [Java Memory Model](https://en.wikipedia.org/wiki/Java_memory_model) | "Defines how threads interact through memory.([source](http://www.cs.umd.edu/~pugh/java/memoryModel/))
+JMX | [Java Management Extensions](https://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) | Management and monitoring of Java-based applications.
+JMXMP | [JMX Messaging Protocol](https://www.gridshore.nl/2010/06/20/exposing-jmx-through-jmxmp-and-reading-the-jmx-data-with-groovy/) | [Alternative to RMI for JMX connector](http://marxsoftware.blogspot.com/2008/08/remote-jmx-connectors-and-adapters.html) ([obsolete](https://www.acunetix.com/blog/web-security-zone/old-java-libraries/))
 JNA | [Java Native Access](https://github.com/java-native-access/jna) | Library/project similar to Java Native Interface (JNI), but intended to be easier to use.
 JNDI | [Java Naming and Directory Interface](https://docs.oracle.com/javase/tutorial/jndi/overview/index.html) | Naming and directory support for Java applications.
 JNI | [Java Native Interface](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/index.html) | "Standard programming interface for writing Java native methods and embedding the Java virtual machine into native applications."
