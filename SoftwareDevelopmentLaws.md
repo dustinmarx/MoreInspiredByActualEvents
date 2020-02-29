@@ -7,6 +7,8 @@ Philippe's Law | "The productivity of a software developer in a team of N people
 
 
 ## Other Collections of Software Development Laws ##
-* [Famous Laws of Software Development])(https://www.timsommer.be/famous-laws-of-software-development/) (Tim Sommer)
+* [Famous Laws of Software Development](https://www.timsommer.be/famous-laws-of-software-development/) (Tim Sommer)
+** [Famous laws of Software Development](https://www.reddit.com/r/programming/comments/aul273/famous_laws_of_software_development/) (Reddit)
 * [15 Fundamental Laws of Software Development](https://exceptionnotfound.net/fundamental-laws-of-software-development/) (Matthew Jones)
 * [19 Eponymous Laws Of Software Development](https://haacked.com/archive/2007/07/17/the-eponymous-laws-of-software-development.aspx/) (Phil Haack)
+
