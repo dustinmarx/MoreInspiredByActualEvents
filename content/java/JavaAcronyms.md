@@ -41,7 +41,8 @@ J2SE | [Java 2 Standard Edition](https://www.oracle.com/technetwork/java/javase/
 NPE | [NullPointerException](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/NullPointerException.html) | JDK-provided exception typically indicating attempt to dereference `null`
 OOM | [OutOfMemory](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/OutOfMemoryError.html) | This typically is referencing the JDK-provided `OutOfMemoryError` (error rather than exception) that indicates the JVM has run out of memory or experienced a similar memory-related error.
 PMO | [Program Management Office](https://jcp.org/en/press/pmo) | "Group within Oracle designated to oversee the Java Community Process and manage the daily running of the program."([source](https://jcp.org/en/introduction/faq#pmo))
-POJO | [Plain Old Java Object](https://martinfowler.com/bliki/POJO.html) | References "regular Java class" (as opposed at the time to entity beans (EJB)) 
+POJO | [Plain Old Java Object](https://martinfowler.com/bliki/POJO.html) | References "regular Java class" (as opposed at the time to entity beans (EJB))
+FRF | Request for Review | Although not exclusive to Java, this acronym is often used for identifying posts related to requests for review of [OpenJDK bug fixes](https://static.rainfocus.com/oracle/oow19/sess/15678191230740018jyZ/PF/OpenJDK_OC1_2019_1568749114283001E5nv.pdf).
 RMI | [Remote Method Invocation](https://docs.oracle.com/javase/tutorial/rmi/index.html) | Java-specific protocol for communication between two JVMs
 SLF4J | [Simple Logging Facade for Java](http://www.slf4j.org/) | Third-party open source library providing a common API for logging that delegats to any of multiple supported logging frameworks.
 SOE | [StackOverflowError](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/StackOverflowError.html) | JDK-provided error (not exception) indicating a stack overflow has occurred. 
