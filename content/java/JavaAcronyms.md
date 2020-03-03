@@ -2,6 +2,7 @@ This page contains a collection of acronyms and abbreviations often seen when wo
 
 ACRONYM | NAME | ADDITIONAL NOTES
 ------- | ---- | ----------------
+ACL | [Access Control List](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/security/acl/Acl.html) | "Data structure used to guard access to resources." ([source](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/security/acl/Acl.html))
 AOT | [Ahead-Of-Time](https://devblogs.microsoft.com/java/aot-compilation-in-hotspot-introduction/) | Java compiler approach.
 AWT | [Abstract Window Toolkit](https://www.javatpoint.com/java-awt) | Base Java graphical components and toolkit ([versus Swing](https://www.educba.com/awt-vs-swing/))
 BSM | [Bootstrap Method](https://www.infoq.com/articles/Invokedynamic-Javas-secret-weapon/) | Method associated with `invokedynamic` instruction.
@@ -25,6 +26,7 @@ JCA | [Java Cryptography Architecture](https://docs.oracle.com/en/java/javase/12
 JCE | Java Cryptography Extension | "Officially released Standard Extension to the Java Platform and part of Java Cryptography Architecture (JCA)" that "provides a framework and implementation for encryption, key generation and key agreement, and Message Authentication Code (MAC) algorithms." ([source](https://en.wikipedia.org/wiki/Java_Cryptography_Extension))
 JCP | [Java Community Process](https://jcp.org/en/home/index) | "Open, participative process to develop and revise the Java™ technology specifications, reference implementations, and test suites"([source](https://jcp.org/en/introduction/faq#jcp))
 JDBC | [JDBC](https://www.oracle.com/technetwork/java/javase/jdbc/index.html) | Often described as "Java Database Connectivity", "JDBC" is technically NOT an acronym and is a [trademarked name](https://www.cis.upenn.edu/~bcpierce/courses/629/jdkdocs/guide/jdbc/getstart/intro.doc.html), but it's widely used as an acronym anyway.
+JDI | [Java Debug Interface](https://www.baeldung.com/java-debug-interface) | "High level Java API providing information useful for debuggers and similar systems needing access to the running state of a (usually remote) virtual machine." ([source](https://docs.oracle.com/en/java/javase/13/docs/api/jdk.jdi/module-summary.html))
 JDK | [Java Development Kit](https://en.wikipedia.org/wiki/Java_Development_Kit) | Implementation of the Java platform.
 JEP | [JDK Enhancement Proposal](https://openjdk.java.net/jeps/0) | "Process for collecting, reviewing, sorting, and recording the results of proposals for enhancements to the JDK."([source](http://openjdk.java.net/jeps/1))
 JFC | [Java Foundation Classes](https://docs.oracle.com/javase/tutorial/uiswing/start/about.html) | "comprehensive set of GUI components and services which dramatically simplify the development and deployment of commercial-quality desktop and Internet/Intranet applications." ([source](https://www.oracle.com/technetwork/java/faqs-140150.html#what_is))
@@ -70,5 +72,6 @@ RMI | [Remote Method Invocation](https://docs.oracle.com/javase/tutorial/rmi/ind
 SLF4J | [Simple Logging Facade for Java](http://www.slf4j.org/) | Third-party open source library providing a common API for logging that delegats to any of multiple supported logging frameworks.
 SOE | [StackOverflowError](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/StackOverflowError.html) | JDK-provided error (not exception) indicating a stack overflow has occurred. 
 SOV | [State of Valhalla](http://cr.openjdk.java.net/~briangoetz/valhalla/sov/02-object-model.html) | Typically references Brian Goetz's regularly updated "[State of Valhalla](https://mail.openjdk.java.net/pipermail/valhalla-spec-experts/2020-February/001238.html)" posts
+SPI | [Service Provider Interface](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html) | "Set of public interfaces and abstract classes that a service defines." ([source](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html#introduction))
 UOE | [UnsupportedOperationException](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/UnsupportedOperationException.html) | JDK-provided exception used to indicate when method has not been implemented.
 WAR | [Web ARchive](https://en.wikipedia.org/wiki/WAR_(file_format)) | "Contains servlet class files, web files, supporting class files, image and HTML files, and, optionally, a web application deployment descriptor." ([source](https://docs.oracle.com/javaee/6/tutorial/doc/bnaby.html))
