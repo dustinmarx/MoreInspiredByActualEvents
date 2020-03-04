@@ -9,4 +9,4 @@ This is a collection of software development articles and resources that complem
 
 ## Java Development ##
 * [Java Acronyms/Abbreviations](content/java/JavaAcronyms.md)
-* [Java Implicit Versus Explicit] (content/java/JavaImplicits.md)
+* [Java Implicit Versus Explicit](content/java/JavaImplicits.md)
