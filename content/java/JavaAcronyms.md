@@ -71,6 +71,7 @@ OSGi | [OSGi](https://www.osgi.org/developer/what-is-osgi/) | Originally an acro
 PMO | [Program Management Office](https://jcp.org/en/press/pmo) | "Group within Oracle designated to oversee the Java Community Process and manage the daily running of the program."([source](https://jcp.org/en/introduction/faq#pmo))
 POJI | [Plain Old Java Interface](http://javaeasy.weebly.com/poji--pojo.html) | References regular Java interface that is not tied to any specific framework or technology.
 POJO | [Plain Old Java Object](https://martinfowler.com/bliki/POJO.html) | References "regular Java class" (as opposed at the time to entity beans (EJB))
+PR | Pull Request | Request to pull changeset into baseline
 RC | [Release Candidate](https://openjdk.java.net/jeps/3#rc) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
 RDP 1 | [Rampdown Phase 1](https://openjdk.java.net/jeps/3#rdp-1) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
 RDP 2 | [Rampdown Phase 2](https://openjdk.java.net/jeps/3#rdp-2) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
