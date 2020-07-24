@@ -22,3 +22,4 @@ Philippe's Law | "The productivity of a software developer in a team of N people
 * [Laws of Computer Programming](https://www.cs.oberlin.edu/~jwalker/humor/lawsOfComputerPrograming.html) ([Jeff Walker](https://walkercoderanger.com/resume/Jeff-Walker-Resume.pdf))
 * [Ten Laws of Software Development](https://productcoalition.com/ten-laws-of-software-development-cbd72db0f85c) ([Niamh Isobel Reed
 ](https://productcoalition.com/@nisobelr))
+* [The Laws of Computer Science](https://dzone.com/articles/service-provider-framework) ([Daniela Kolarova](https://dzone.com/users/2738938/dkolarova.html)) 
