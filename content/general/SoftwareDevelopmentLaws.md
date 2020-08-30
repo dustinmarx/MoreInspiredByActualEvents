@@ -7,6 +7,7 @@ LAW | DESCRIPTION | SOURCE
 [Hofstadter's Law](https://en.wikipedia.org/wiki/Hofstadter%27s_law) | "It always takes longer than you expect, even when you take into account Hofstadter's Law." | [Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
 Hyrum's Law | "With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody." | [hyrumslaw.com](https://www.hyrumslaw.com/)
 Philippe's Law | "The productivity of a software developer in a team of N people is diminished by dividing it by the cube root of N." | [Cyprich.com](http://www.cyprich.com/2008/06/06/philippes-law/)
+Stroustrup's Rule | "For new features, people insist on LOUD explicit syntax. For established features, people want terse notation." | [The Feedback Loop](https://www.thefeedbackloop.xyz/stroustrups-rule-and-layering-over-time/)
 
 
 ## Other Collections of Software Development Laws ##
