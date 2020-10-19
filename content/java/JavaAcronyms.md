@@ -93,3 +93,7 @@ SPI | [Service Provider Interface](https://docs.oracle.com/javase/tutorial/ext/b
 UOE | [UnsupportedOperationException](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/UnsupportedOperationException.html) | JDK-provided exception used to indicate when method has not been implemented.
 VBC | [Value-Based Class](https://blog.codefx.org/java/value-based-classes/) | Special type of class described in [JDK API documentation](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/doc-files/ValueBased.html) as a type of <em>identityless</em> class for which a warning is provided: "Use of ... identity-sensitive operations on instances of value-based classes may have unpredictable effects and should be avoided."
 WAR | [Web ARchive](https://en.wikipedia.org/wiki/WAR_(file_format)) | "Contains servlet class files, web files, supporting class files, image and HTML files, and, optionally, a web application deployment descriptor." ([source](https://docs.oracle.com/javaee/6/tutorial/doc/bnaby.html))
+
+
+### Related Resources ###
+* [The Java SE Ecosystem](https://www.helenjoscott.com/posts/the-java-ecosystem)
