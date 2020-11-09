@@ -1,0 +1,84 @@
+<html>
+<head><title>Sun Minor Codes</title></head>
+
+<body>
+<font size="6"><b>Sun Minor Codes</b></font>
+<div><br>
+</div>
+<div>The <a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/">Java IDL (CORBA) Documentation</a>&nbsp;includes an <a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html">Exceptions page</a> that describes the <a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#differences">differences between CORBA and Java exceptions</a> and explains that "all CORBA system exceptions have a minor code field, a number that provides additional information about the nature of the failure that caused the exception." That page goes onto say that "minor code meanings are not specified by the OMG" and that "each ORB vendor specifies appropriate minor codes for that implementation." One of the most useful aspects of this page is that it <a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">lists and describes</a> "some of the most common Sun minor code exceptions ("minor codes thrown by the Java  ORB"<span style="line-height:1.4;font-size:10pt">). I reference these codes and other codes on this page.</span></div>
+<div><span style="line-height:1.4;font-size:10pt"><br>
+</span></div>
+<div><span style="line-height:1.4;font-size:10pt">These codes typically appear in the form&nbsp;</span><i>vmcid: SUN minor code: XXX</i>&nbsp;where XXX is the three-digit Sun minor code and "vmcid" stands for&nbsp;<a href="http://www.omg.org/cgi-bin/doc.cgi?vendor-tags">Vendor Minor Codeset ID</a> (<a href="http://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture#VMCID_.28Vendor_Minor_Codeset_ID.29">VMCID</a>)<span style="line-height:1.4;font-size:10pt">. As the table below indicates, the same 3-digit number can appear for entirely different exception conditions. The text associated with these exception messages often provides clues to differentiate between conditions with the same 3-digit number for Sun minor code.</span></div>
+<div><br>
+</div>
+<div><span style="line-height:1.4;font-size:10pt">
+<table border="1" bordercolor="#888" cellspacing="0" style="border-collapse:collapse;border-color:rgb(136,136,136);border-width:1px">
+<tbody>
+<tr>
+<td style="text-align:center;width:34px;height:60px"><b><font size="3">&nbsp;Sun Minor Code<br>
+(Java ORB Code)</font></b></td>
+<td style="text-align:center;width:342px;height:60px"><b><font size="3">Meaning&nbsp;</font></b></td>
+<td style="text-align:center;width:373px;height:60px"><b><font size="3">Sources for Additional Details</font></b></td>
+</tr>
+<tr>
+<td style="width:34px;height:17px">COMM_FAILURE/<b>201</b></td>
+<td style="width:342px;height:17px">"CONNECT_FAILURE" (<a href="http://docs.oracle.com/javase/8/docs/api/java/net/SocketException.html">SocketException</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/net/BindException.html">BindException</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/net/ConnectException.html">ConnectException</a>, <a href="http://docs.oracle.com/javase/8/docs/api/java/net/NoRouteToHostException.html">NoRouteToHostException</a>)&nbsp;</td>
+<td style="width:373px;height:17px"><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td>BAD_PARAM/<b>201</b></td>
+<td>"NULL_PARAM"</td>
+<td><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td>MARSHAL/<b>202</b></td>
+<td>&nbsp;</td>
+<td><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td>OBJECT_NOT_EXIST/<b>204</b></td>
+<td>"SERVANT_NOT_FOUND"</td>
+<td><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td style="width:34px;height:17px">COMM_FAILURE/<b>208</b></td>
+<td style="width:342px;height:17px">"CONNECTION ABORT" (connection dropped)&nbsp;</td>
+<td style="width:373px;height:17px"><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td> org.omg.CORBA.INTERNAL/<b>208</b></td>
+<td>&nbsp;</td>
+<td><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td>COMM_FAILURE/<b>209</b></td>
+<td>"CREATE_LISTENER_FAILED"</td>
+<td><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a></td>
+</tr>
+<tr>
+<td style="width:34px;height:17px">MARSHAL/<b>217</b></td>
+<td style="width:342px;height:17px">&nbsp;</td>
+<td style="width:373px;height:17px"><a href="http://docs.oracle.com/javase/8/docs/technotes/guides/idl/jidlExceptions.html#minorcodemeanings">Java IDL Exceptions Minor Code Meanings</a>&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="2">org.omg.CORBA.MARSHAL/<b>257 </b></td>
+<td>&nbsp;Incompatible versions of client/server software</td>
+<td><a href="http://stackoverflow.com/a/1506723">StackOverflow: EJB lookup throws error...SUN minor code 257</a></td>
+</tr>
+<tr>
+<td>&nbsp;Could not find class / runtime class generation/weaving</td>
+<td><a href="http://markmail.org/message/l5jooxifxlt6a7v4">Issue 1828: Could Not Find Class</a><br>
+<a href="https://www.java.net/node/698478">SUN minor code: 257 Maibe - Problem</a></td>
+</tr>
+</tbody>
+</table>
+<br>
+</span></div>
+<h2><span style="line-height:1.4;font-size:10pt">Additional Resources</span></h2>
+<div>
+<ul><li>Borland's <a href="http://techpubs.borland.com/am/bes/v6/en/updates/except_cpp.html">CORBA exceptions</a></li>
+<li>IBM's <a href="http://publib.boulder.ibm.com/infocenter/javasdk/v1r4m2/index.jsp?topic=%2Fcom.ibm.java.doc.diagnostics.142%2Fhtml%2Fcomstamincode.html">Completion Status and Minor Codes</a></li>
+<li>IBM <a href="http://publib.boulder.ibm.com/infocenter/javasdk/v1r4m2/index.jsp?topic=%2Fcom.ibm.java.doc.diagnostics.142%2Fhtml%2Fcorbamess.html&amp;path=0_6_3">JVM CORBA Minor Codes</a></li></ul>
+</div>
+</body>
+</html>
