@@ -1,4 +1,7 @@
-## Quotations on Java Records
+## Quotations on Java Records ##
+
+This page provides some quotations on Java Records that are useful in understanding how [Records](https://blogs.oracle.com/javamagazine/records-come-to-java) are designed and how to most effectively apply them. These quotations are _not_ currently organized or categorized, but that _may_ change in future versions of this document.
+
 * "Records provide a compact syntax for declaring classes which are transparent holders for shallowly immutable data." - [JEP 359: Records (Preview)](https://openjdk.java.net/jeps/359)
 * Records "are classes that act as transparent carriers for immutable data" and "can be thought of as _nominal tuples_." - [JEP 384: Records (Second Preview) (as of 9 May 2020)](https://openjdk.java.net/jeps/384)
 * "While it is superficially tempting to treat records as primarily being about boilerplate reduction, we instead choose a more semantic goal: _modeling data as data_. (If the semantics are right, the boilerplate will take care of itself.) ... records make the semantic claim of being transparent carriers for their data." - [JEP 384: Records (Second Preview) (as of 9 May 2020)](https://openjdk.java.net/jeps/384)
@@ -60,3 +63,15 @@ of the interesting protocols an object might expose -- construction, property ac
 * "Records are the Java version of named tuples - basically containers for an ordered sequence of elements." - [Johan Janssen, 12 August 2020](https://www.infoq.com/news/2020/08/java16-records-instanceof/)
 * "Records are named tuples, they are defined only by their components, in a transparent manner i.e. no encapsulation." - [Rémi Forax, 23 December 2020](https://mail.openjdk.java.net/pipermail/amber-dev/2020-December/006871.html)
 * "The idea is that, in a method, if you are able to see a record, you can create it. Thus the canonical constructor has the same visibility as the record itself." - [Rémi Forax, 23 December 2020](https://mail.openjdk.java.net/pipermail/amber-dev/2020-December/006871.html)
+
+## More Java Records References ##
+* [JDK 15 API Documentation: Record](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Record.html)
+* [JEP 359: Records (Preview|JDK 14)](https://openjdk.java.net/jeps/359)
+* [JEP 384: Records (Second Preview|JDK 15)](https://openjdk.java.net/jeps/384)
+* [JEP 395: Records (JDK 16)](https://openjdk.java.net/jeps/395)
+* [Records and Pattern Matching for Instanceof Finalized in JDK 16](https://www.infoq.com/news/2020/08/java16-records-instanceof/)
+* [Records Come to Java](https://blogs.oracle.com/javamagazine/records-come-to-java)
+* [Java 14 Feature Spotlight: Records](https://www.infoq.com/articles/java-14-feature-spotlight/)
+* [Java 14 Record Keyword](https://www.baeldung.com/java-record-keyword)
+* [A First Look at Records in Java 14](https://mahmoudanouti.wordpress.com/2019/12/22/a-first-look-at-records-in-java-14/)
+* [Java 14 - First Impression of Records](https://medium.com/pricerunner-tech/java-14-first-impression-of-records-3a69be1ffbd0)
