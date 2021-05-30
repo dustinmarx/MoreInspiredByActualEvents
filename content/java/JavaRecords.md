@@ -63,6 +63,8 @@ of the interesting protocols an object might expose -- construction, property ac
 * "Records are the Java version of named tuples - basically containers for an ordered sequence of elements." - [Johan Janssen, 12 August 2020](https://www.infoq.com/news/2020/08/java16-records-instanceof/)
 * "Records are named tuples, they are defined only by their components, in a transparent manner i.e. no encapsulation." - [Rémi Forax, 23 December 2020](https://mail.openjdk.java.net/pipermail/amber-dev/2020-December/006871.html)
 * "The idea is that, in a method, if you are able to see a record, you can create it. Thus the canonical constructor has the same visibility as the record itself." - [Rémi Forax, 23 December 2020](https://mail.openjdk.java.net/pipermail/amber-dev/2020-December/006871.html)
+* "Records are not a “macro generator”; to think of records in terms of "the compiler generates XYZ pattern of code", while technically accurate, is missing the main point.  They are a semantic feature, that happens to dispense with some boilerplate." - [Brian Goetz, 22 May 2021](https://mail.openjdk.java.net/pipermail/core-libs-dev/2021-May/077957.html)
+* "Records are best understood as _nominal tuples_; they are the language’s mechanism for representing product types.  Because Java is an OO language, we can mediate the construction process to reject invalid states or normalize state to its canonical form, and we derive the semantics for accessors, equals, hashCode, etc, from the semantics of tuples." - [Brian Goetz, 22 May 2021](https://mail.openjdk.java.net/pipermail/core-libs-dev/2021-May/077957.html)
 
 ## More Java Records References ##
 * [JDK 15 API Documentation: Record](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Record.html)
