@@ -9,5 +9,5 @@ This is a collection of software development articles and resources that complem
 
 ## Java Development ##
 * [Java Acronyms/Abbreviations](content/java/JavaAcronyms.md)
-* [Java Records Quotations](content/java/Records.md)
+* [Java Records Quotations](content/java/JavaRecords.md)
 * [Java Implicit Versus Explicit](content/java/JavaImplicits.md)
