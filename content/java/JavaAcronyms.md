@@ -70,6 +70,7 @@ JVMTI | [Java Virtual Machine Tool Interface](https://docs.oracle.com/en/java/ja
 J2EE | [Java 2 Enterprise Edition](https://www.oracle.com/java/technologies/java-ee-glance.html) | Former name for Java EE
 J2ME | [Java 2 Micro Edition](https://www.oracle.com/java/technologies/javameoverview.html) | Java for mobile devices and embedded applications.
 J2SE | [Java 2 Standard Edition](https://www.oracle.com/technetwork/java/javase/overview/index.html) | Standard Java (as opposed to J2EE or Java EE)
+LOTJ | Language Other Than Java | Refers to programming languages other than Java and is typically in reference to languages other than Java running on the JVM.
 LUB | Least Upper Bound | "Set of reference types is a shared supertype that is more specific than any other shared supertype (that is, no other shared supertype is a subtype of the least upper bound)." ([source](https://docs.oracle.com/javase/specs/jls/se15/html/jls-4.html#jls-4.10.4))
 L10N | [Localization](https://docs.oracle.com/javase/tutorial/i18n/intro/index.html) | "Process of adapting software for a specific region or language by adding locale-specific components and translating text." ([source](https://docs.oracle.com/javase/tutorial/i18n/intro/index.html))
 MP | [Method Parameter](https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/enhancements.html) | "A MethodParameters attribute records information about the formal parameters of a method, such as their names." ([source](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html#jvms-4.7.24))
