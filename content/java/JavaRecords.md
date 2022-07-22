@@ -68,6 +68,7 @@ of the interesting protocols an object might expose -- construction, property ac
 * "... a record is a weird tuple. A record in Java is not just a tuple, ... but because all components are named also a compact key/value set." - [Rémi Forax, 14 September 2021](https://mail.openjdk.java.net/pipermail/amber-spec-experts/2021-September/003104.html)
 * Records do [not support C-style array declarations](https://stackoverflow.com/questions/69056728/c-style-arrays-do-not-work-with-records-anymore) because "the C-style array notation is considered legacy and is not being carried forward into new constructs." - [Brian Goetz, 5 September 2021](https://stackoverflow.com/questions/69056728/c-style-arrays-do-not-work-with-records-anymore#comment122063101_69056729)
 * "The boilerplate-reduction benefits of records is a bonus, but was not the point.  Records are about the language having a direct way to describe *data as data*. This is a semantic upleveling, not a mere boilerplate-reduction.  The boilerplate reduction *derives from* the semantic upleveling." - [Brian Goetz, 20 May 2022](https://mail.openjdk.java.net/pipermail/amber-dev/2022-May/007358.html)
+* "And records aren't even immutable, they are only shallowly immutable." - [Brian Goetz, 2 July 2022](https://mail.openjdk.org/pipermail/amber-dev/2022-July/007404.html)
 
 ## More Java Records References ##
 * [JDK 15 API Documentation: Record](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Record.html)
