@@ -74,6 +74,7 @@ and no one has to write any code.  But when mutability rears its head, the 'righ
 * "Similarly, some records may want to expose the mutability of their components to clients, and others will want to launder using defensive copies.  All of 
 these are expressible in the record model, just with different degrees of explicit code." - [Brian Goetz, 10 August 2022](https://mail.openjdk.org/pipermail/amber-dev/2022-August/007436.html)
 * "So if you define a record whose components are mutable, or for whom you don't want the record equivalence semantics to be the same as the component equals, you're going to have to write some code -- but more importantly, you're going to have to tell your users what equality means for _your_ record." - [Brian Goetz, 10 August 2022](https://mail.openjdk.org/pipermail/amber-dev/2022-August/007436.html)
+* "But generating 'mutable records' is a serious party foul, and we should treat it the way normal communities  treat party fouls -- with shame (and if that doesn't work, banishment.)" - [Brian Goetz, 17 August 2022](https://mail.openjdk.org/pipermail/amber-dev/2022-August/007448.html)
 
 ## More Java Records References ##
 * [JDK 15 API Documentation: Record](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/lang/Record.html)
