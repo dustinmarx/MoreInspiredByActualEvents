@@ -21,6 +21,7 @@ EG | [Expert Group](https://jcp.org/en/introduction/faq#egnom) | "The group of J
 EJB | [Enterprise JavaBean](https://www.javaworld.com/article/3432125/what-is-ejb-the-evolution-of-enterprise-javabeans.html) | Part of Java EE
 FDT | [Foward Declared Type](https://mail.openjdk.java.net/pipermail/valhalla-spec-experts/2019-May/001045.html) | Term used in a [Project Valhalla](https://openjdk.java.net/projects/valhalla/) [mailing list post](https://mail.openjdk.java.net/pipermail/valhalla-spec-experts/2019-May/001045.html)
 FQDN | [Fully Qualified Domain Name](https://www.ionos.com/digitalguide/domains/domain-administration/fqdn-fully-qualified-domain-name/) | This is often referenced in Java literature when describing [Java package naming](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html).
+FMT | String "template processor defined in the Java library" that "performs interpolation" and "interprets format specifiers". | Described in [JEP 430: String Templates (Preview)](https://openjdk.org/jeps/430)
 GA | General Availability | General release of [OpenJDK](https://jdk.java.net/archive/) or [Oracle Java SE](https://www.oracle.com/java/technologies/java-se-support-roadmap.html).
 GADT | Generalized Algebraic Data Type | |
 GC | [Garbage Collector](https://docs.oracle.com/en/java/javase/11/gctuning/introduction-garbage-collection-tuning.html) | A [garbage collector](https://docs.oracle.com/en/java/javase/13/gctuning/available-collectors.html#GUID-F215A508-9E58-40B4-90A5-74E29BF3BD3C) "automatically manages the application's dynamic memory allocation requests." ([source](https://docs.oracle.com/en/java/javase/11/gctuning/introduction-garbage-collection-tuning.html))
@@ -89,6 +90,7 @@ PMO | [Program Management Office](https://jcp.org/en/press/pmo) | "Group within 
 POJI | [Plain Old Java Interface](http://javaeasy.weebly.com/poji--pojo.html) | References regular Java interface that is not tied to any specific framework or technology.
 POJO | [Plain Old Java Object](https://martinfowler.com/bliki/POJO.html) | References "regular Java class" (as opposed at the time to entity beans (EJB))
 PR | Pull Request | Request to pull changeset into baseline
+RAW | Standard processor for working "with an unprocessed `StringTemplate`" | Described in [JEP 430: String Templates (Preview)](https://openjdk.org/jeps/430)
 RC | [Release Candidate](https://openjdk.java.net/jeps/3#rc) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
 RDP 1 | [Rampdown Phase 1](https://openjdk.java.net/jeps/3#rdp-1) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
 RDP 2 | [Rampdown Phase 2](https://openjdk.java.net/jeps/3#rdp-2) | Phase in [JEP 3](https://openjdk.java.net/jeps/3)-specified OpenJDK release process.
@@ -99,6 +101,7 @@ SLF4J | [Simple Logging Facade for Java](http://www.slf4j.org/) | Third-party op
 SOE | [StackOverflowError](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/StackOverflowError.html) | JDK-provided error (not exception) indicating a stack overflow has occurred. 
 SOV | [State of Valhalla](http://cr.openjdk.java.net/~briangoetz/valhalla/sov/02-object-model.html) | Typically references Brian Goetz's regularly updated "[State of Valhalla](https://mail.openjdk.java.net/pipermail/valhalla-spec-experts/2020-February/001238.html)" posts
 SPI | [Service Provider Interface](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html) | "Set of public interfaces and abstract classes that a service defines." ([source](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html#introduction))
+STR | String "template processor defined in the Java library" | Described in [JEP 430: String Templates (Preview)](https://openjdk.org/jeps/430)
 TL | [ThreadLocal](https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/ThreadLocal.html) | Used to designate per-thread data. ([source](https://dzone.com/articles/purpose-threadlocal-java-and))
 TWR | [try-with-resources](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html) | "`try` statement that declares one or more resources ... [[and]] ... ensures that each resource is closed at the end of the statement"([source](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html))
 UOE | [UnsupportedOperationException](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/UnsupportedOperationException.html) | JDK-provided exception used to indicate when method has not been implemented.
