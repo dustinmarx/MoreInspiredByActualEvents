@@ -1,3 +1,5 @@
+= Java Acronyms and Meanings =
+
 This page contains a collection of acronyms and abbreviations often seen when working in Java-related areas. Some of these are lesser known acronyms used in mailing lists and some of these are more general than Java, but are frequently referenced in Java literature.
 
 ACRONYM | NAME | ADDITIONAL NOTES
@@ -98,7 +100,7 @@ SOE | [StackOverflowError](https://docs.oracle.com/en/java/javase/13/docs/api/ja
 SOV | [State of Valhalla](http://cr.openjdk.java.net/~briangoetz/valhalla/sov/02-object-model.html) | Typically references Brian Goetz's regularly updated "[State of Valhalla](https://mail.openjdk.java.net/pipermail/valhalla-spec-experts/2020-February/001238.html)" posts
 SPI | [Service Provider Interface](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html) | "Set of public interfaces and abstract classes that a service defines." ([source](https://docs.oracle.com/javase/tutorial/ext/basics/spi.html#introduction))
 TL | [ThreadLocal](https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/ThreadLocal.html) | Used to designate per-thread data. ([source](https://dzone.com/articles/purpose-threadlocal-java-and))
-TWR | [try-with-resources](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html) | ["`try` statement that declares one or more resources ... [[and]] ... ensures that each resource is closed at the end of the statement"](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
+TWR | [try-with-resources](https://docs.oracle.com/javase/7/docs/technotes/guides/language/try-with-resources.html) | "`try` statement that declares one or more resources ... [[and]] ... ensures that each resource is closed at the end of the statement"([source](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html))
 UOE | [UnsupportedOperationException](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/UnsupportedOperationException.html) | JDK-provided exception used to indicate when method has not been implemented.
 VBC | [Value-Based Class](https://blog.codefx.org/java/value-based-classes/) | Special type of class described in [JDK API documentation](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/lang/doc-files/ValueBased.html) as a type of <em>identityless</em> class for which a warning is provided: "Use of ... identity-sensitive operations on instances of value-based classes may have unpredictable effects and should be avoided."
 WAR | [Web ARchive](https://en.wikipedia.org/wiki/WAR_(file_format)) | "Contains servlet class files, web files, supporting class files, image and HTML files, and, optionally, a web application deployment descriptor." ([source](https://docs.oracle.com/javaee/6/tutorial/doc/bnaby.html))
