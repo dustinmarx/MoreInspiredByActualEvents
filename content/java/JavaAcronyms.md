@@ -1,4 +1,4 @@
-= Java Acronyms and Meanings =
+# Java Acronyms and Meanings #
 
 This page contains a collection of acronyms and abbreviations often seen when working in Java-related areas. Some of these are lesser known acronyms used in mailing lists and some of these are more general than Java, but are frequently referenced in Java literature.
 
